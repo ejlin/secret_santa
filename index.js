@@ -18,7 +18,8 @@ function setup()
   userRef.once("value").then(
     function(snapshot) {
       var users = snapshot.val();
-
+      console.log(users.length);
+      console.log("here");
       for(var i = 0; i < users.length; i++)
       {
         if (users[i] != undefined)
