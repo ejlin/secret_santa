@@ -115,7 +115,6 @@ function find_out()
       var secret_santa = available_users[num];
       end_page_title.innerHTML = "Your Secret Santa is: " + secret_santa;
 
-
       var list = document.createElement("P");
       list.className += " end_page_info";
       switch(secret_santa)
